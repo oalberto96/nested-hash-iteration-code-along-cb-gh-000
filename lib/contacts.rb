@@ -18,7 +18,9 @@ def remove_strawberry(contacts)
   contacts.each do |key, contact|
     contact.each do |attribute, value|
       if attribute == :favorite_ice_cream_flavors
-        value.pop(value.index("strawberry")) if value.include?("strawberry")
+        if value.include?("strawberry")
+          puts value.pop(value.index("strawberry")) 
+        end
       end
     end
     puts contacts
