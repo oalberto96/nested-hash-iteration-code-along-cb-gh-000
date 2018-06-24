@@ -19,6 +19,7 @@ def remove_strawberry(contacts)
     contact.each do |attribute, value|
       if attribute == :favorite_ice_cream_flavors
         puts "YES"
+      end
     end
   end
 
