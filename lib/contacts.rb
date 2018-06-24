@@ -21,7 +21,6 @@ def remove_strawberry(contacts)
         if value.include?("strawberry")
           value.delete_at(value.index("strawberry"))
         end
-        puts value
       end
     end
   end
