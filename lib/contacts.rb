@@ -21,6 +21,7 @@ def remove_strawberry(contacts)
         value.pop(2)
       end
     end
+    puts contacts
   end
 
 end
