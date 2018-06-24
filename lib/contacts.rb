@@ -20,7 +20,7 @@ def remove_strawberry(contacts)
       if attribute == :favorite_ice_cream_flavors
         if value.include?("strawberry")
           puts i = value.index("strawberry")
-          puts "Hi #{value.pop(i)}"
+          puts "Hi #{value.delete_at(i)}"
         end
         puts value
       end
