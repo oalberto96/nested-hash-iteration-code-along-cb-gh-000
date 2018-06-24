@@ -22,9 +22,9 @@ def remove_strawberry(contacts)
         if value.include?("strawberry")
           puts value.pop(value.index("strawberry"))
         end
+        puts value
       end
     end
-    puts contacts
   end
 
 end
